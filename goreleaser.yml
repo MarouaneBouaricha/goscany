@@ -3,10 +3,10 @@ builds:
   main: ./cmd/
   goos:
   - linux
+  - darwin
   goarch:
   - amd64
   - arm64
-  - darwin
   env:
   - CGO_ENABLED=0
   flags:
