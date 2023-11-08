@@ -1,10 +1,9 @@
 # GoScany
 
-Simple port scanner CLI written Go
+Simple port scanner CLI written Go,
 a try of implementing the native concurrency mechanism in the Go Language.
 
-## Requirement
---------------
+## Requirements
 ```
 go 1.13 or 
 clir v1.0.4
@@ -34,7 +33,6 @@ sudo chmod +x /usr/local/bin/goscany
 ```
 
 ## Usage
---------------
 ```
 gscany v0.0.1 - Fast Port Scanner CLI
 
