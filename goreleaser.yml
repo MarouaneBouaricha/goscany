@@ -24,10 +24,10 @@ brews:
     name: goscany
     homepage: https://github.com/MarouaneBouaricha/homebrew-releases
     tap:
-      owner: mbouaricha
+      owner: MarouaneBouaricha
       name: homebrew-goscany
     commit_author:
-      name: mbouaricha
+      name: MarouaneBouaricha
       email: marouane.tchiko@gmail.com
 
 checksum:
