@@ -1,23 +1,37 @@
+# GoScany
+
 Simple port scanner CLI written Go
 a try of implementing the native concurrency mechanism in the Go Language.
 
-Requirement
+## Requirement
 --------------
 ```
-go 1.13
+go 1.13 or 
 clir v1.0.4
 ```
 
-Building and Executing
---------------
+## Installing
+### brew
+```shell
+brew tap MarouaneBouaricha/goscany
+brew install goscany
 ```
-$ go build
-
-$ ./binary-name
-
+### linux
+from binay releases
+```
+wget https://github.com/MarouaneBouaricha/goscany/releases/tag/v0.0.5/goscany_0.0.5_linux_amd64.tar.gz
+```
+```
+tar -xcf goscany_0.0.5_linux_amd64.tar.gz
+```
+```
+sudo mv goscany_0.0.5_linux_amd64.tar.gz /usr/local/bin/goscany
+```
+```
+sudo chmod +x /usr/local/bin/goscany
 ```
 
-Help
+## Usage
 --------------
 ```
 gscany v0.0.1 - Fast Port Scanner CLI
@@ -35,15 +49,15 @@ Flags:
 ```
 
 
-Example Usage
+## Example Usage
 ----------------
 
 ```
-./gscany wide -host 192.168.1.6 -n 2500 -p tcp
+goscany wide -host 192.168.1.6 -n 2500 -p tcp
 
 ```
 
-output:
+### output:
 
 ```
 Scanning...
