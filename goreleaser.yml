@@ -2,6 +2,7 @@ builds:
 - binary: goscany
   main: ./cmd/
   goos:
+  - windows
   - linux
   - darwin
   goarch:
@@ -17,6 +18,17 @@ release:
 
 universal_binaries:
 - replace: true
+
+brews:
+  -
+    name: goscany
+    homepage: https://github.com/MarouaneBouaricha/homebrew-releases
+    tap:
+      owner: mbouaricha
+      name: homebrew-goscany
+    commit_author:
+      name: mbouaricha
+      email: marouane.tchiko@gmail.com
 
 checksum:
   name_template: 'checksums.txt'
