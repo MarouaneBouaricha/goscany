@@ -13,7 +13,9 @@ clir v1.0.4
 ## Installing
 ### brew
 ```shell
-brew tap MarouaneBouaricha/goscany
+brew tap MarouaneBouaricha/releases
+```
+```shell
 brew install goscany
 ```
 ### linux
@@ -50,7 +52,6 @@ Flags:
 
 
 ## Example Usage
-----------------
 
 ```
 goscany wide -host 192.168.1.6 -n 2500 -p tcp
