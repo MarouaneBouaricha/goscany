@@ -5,7 +5,7 @@ a try of implementing the native concurrency mechanism in the Go Language.
 
 ## Requirements
 ```
-go 1.13 or 
+go 1.13 or later
 clir v1.0.4
 ```
 
