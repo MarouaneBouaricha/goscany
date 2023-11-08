@@ -22,10 +22,10 @@ universal_binaries:
 brews:
   -
     name: goscany
-    homepage: https://github.com/MarouaneBouaricha/homebrew-releases
+    homepage: https://github.com/MarouaneBouaricha/goscany
     tap:
       owner: MarouaneBouaricha
-      name: homebrew-goscany
+      name: homebrew-releases
     commit_author:
       name: MarouaneBouaricha
       email: marouane.tchiko@gmail.com
